@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "multiple-cucumber-html-reporter": "^3.5.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
@@ -17,5 +18,10 @@
     "eslint": "^8.51.0",
     "eslint-plugin-cucumber": "^2.0.0",
     "eslint-plugin-cypress": "^2.15.1"
-  }
+  },
+  "cypress-cucumber-preprocessor": {
+    "html": {
+      "enabled": true
+      }
+    }
 }
